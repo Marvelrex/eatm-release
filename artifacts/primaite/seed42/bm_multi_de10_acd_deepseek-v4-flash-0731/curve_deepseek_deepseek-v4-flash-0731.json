@@ -1,0 +1,84 @@
+{
+  "tag": "deepseek_deepseek-v4-flash-0731",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "steps": 500,
+  "blue": "llm",
+  "decide_every": 10,
+  "restore_cost": -1.0,
+  "topo": "multi",
+  "temperature": 0.7,
+  "seed": 42,
+  "episodes": [
+    {
+      "episode": 0,
+      "reward": -8644.0,
+      "hq_reward": -2394.0,
+      "hq_restores": [
+        7,
+        12,
+        2
+      ],
+      "hq_covered": 3,
+      "llm_answered": 249,
+      "fell_back": 0,
+      "cost_usd": 0.1033
+    },
+    {
+      "episode": 1,
+      "reward": -7611.0,
+      "hq_reward": -1855.0,
+      "hq_restores": [
+        12,
+        18,
+        5
+      ],
+      "hq_covered": 3,
+      "llm_answered": 248,
+      "fell_back": 0,
+      "cost_usd": 0.1025
+    },
+    {
+      "episode": 2,
+      "reward": -7872.0,
+      "hq_reward": -2160.0,
+      "hq_restores": [
+        11,
+        16,
+        3
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.1022
+    },
+    {
+      "episode": 3,
+      "reward": -7962.0,
+      "hq_reward": -2146.0,
+      "hq_restores": [
+        10,
+        16,
+        2
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.1035
+    },
+    {
+      "episode": 4,
+      "reward": -7749.0,
+      "hq_reward": -1796.0,
+      "hq_restores": [
+        14,
+        16,
+        6
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.1012
+    }
+  ],
+  "spend_usd": 0.5126999999999999
+}

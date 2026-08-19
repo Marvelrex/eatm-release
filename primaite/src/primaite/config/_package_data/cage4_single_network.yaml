@@ -1,0 +1,113 @@
+metadata:
+  version: 3.0
+
+io_settings:
+  save_agent_actions: true
+  save_step_metadata: false
+  save_pcap_logs: false
+  save_sys_logs: false
+  sys_log_level: WARNING
+
+game:
+  max_episode_length: 256
+  ports:
+    - ARP
+    - DNS
+    - HTTP
+    - POSTGRES_SERVER
+  protocols:
+    - ICMP
+    - TCP
+    - UDP
+
+agents: []
+
+simulation:
+  network:
+    nodes:
+
+      - hostname: single_router
+        type: router
+        num_ports: 2
+        ports:
+          1:
+            ip_address: 192.168.10.1
+            subnet_mask: 255.255.255.0
+        acl:
+          10:
+            action: PERMIT
+
+      - hostname: single_switch
+        type: switch
+        num_ports: 16
+
+      - hostname: alpha_server
+        type: server
+        ip_address: 192.168.10.11
+        subnet_mask: 255.255.255.0
+        default_gateway: 192.168.10.1
+        dns_server: 192.168.10.11
+        services:
+          - type: dns-server
+            options:
+              domain_mapping:
+                single.cage.local: 192.168.10.11
+
+      - hostname: bravo_server
+        type: server
+        ip_address: 192.168.10.12
+        subnet_mask: 255.255.255.0
+        default_gateway: 192.168.10.1
+        dns_server: 192.168.10.11
+
+      - hostname: charlie_server
+        type: server
+        ip_address: 192.168.10.13
+        subnet_mask: 255.255.255.0
+        default_gateway: 192.168.10.1
+        dns_server: 192.168.10.11
+
+      - hostname: delta_server
+        type: server
+        ip_address: 192.168.10.14
+        subnet_mask: 255.255.255.0
+        default_gateway: 192.168.10.1
+        dns_server: 192.168.10.11
+
+      - hostname: echo_server
+        type: server
+        ip_address: 192.168.10.15
+        subnet_mask: 255.255.255.0
+        default_gateway: 192.168.10.1
+        dns_server: 192.168.10.11
+
+    links:
+      - endpoint_a_hostname: single_router
+        endpoint_a_port: 1
+        endpoint_b_hostname: single_switch
+        endpoint_b_port: 16
+
+      - endpoint_a_hostname: alpha_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: single_switch
+        endpoint_b_port: 1
+
+      - endpoint_a_hostname: bravo_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: single_switch
+        endpoint_b_port: 2
+
+      - endpoint_a_hostname: charlie_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: single_switch
+        endpoint_b_port: 3
+
+      - endpoint_a_hostname: delta_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: single_switch
+        endpoint_b_port: 4
+
+      - endpoint_a_hostname: echo_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: single_switch
+        endpoint_b_port: 5

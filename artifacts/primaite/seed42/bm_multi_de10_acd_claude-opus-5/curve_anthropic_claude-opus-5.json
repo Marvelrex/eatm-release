@@ -1,0 +1,126 @@
+{
+  "tag": "anthropic_claude-opus-5",
+  "model": "anthropic/claude-opus-5",
+  "steps": 500,
+  "blue": "llm",
+  "decide_every": 10,
+  "restore_cost": -1.0,
+  "topo": "multi",
+  "temperature": 0.7,
+  "seed": 42,
+  "episodes": [
+    {
+      "episode": 0,
+      "reward": -6976.0,
+      "hq_reward": -1540.0,
+      "hq_restores": [
+        19,
+        16,
+        12
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 5.8637
+    },
+    {
+      "episode": 1,
+      "reward": -6941.0,
+      "hq_reward": -1573.0,
+      "hq_restores": [
+        18,
+        18,
+        10
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 5.9643
+    },
+    {
+      "episode": 2,
+      "reward": -7278.0,
+      "hq_reward": -1579.0,
+      "hq_restores": [
+        19,
+        19,
+        8
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 5.9917
+    },
+    {
+      "episode": 3,
+      "reward": -6991.0,
+      "hq_reward": -1499.0,
+      "hq_restores": [
+        19,
+        16,
+        12
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 5.9284
+    },
+    {
+      "episode": 4,
+      "reward": -7010.0,
+      "hq_reward": -1539.0,
+      "hq_restores": [
+        18,
+        18,
+        9
+      ],
+      "hq_covered": 3,
+      "llm_answered": 248,
+      "fell_back": 0,
+      "cost_usd": 5.8989
+    },
+    {
+      "episode": 5,
+      "reward": -7009.0,
+      "hq_reward": -1432.0,
+      "hq_restores": [
+        18,
+        18,
+        9
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 5.9756
+    },
+    {
+      "episode": 6,
+      "reward": -6889.0,
+      "hq_reward": -1490.0,
+      "hq_restores": [
+        16,
+        18,
+        11
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 5.9733
+    },
+    {
+      "episode": 7,
+      "reward": -7137.0,
+      "hq_reward": -1522.0,
+      "hq_restores": [
+        17,
+        18,
+        11
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 5.9257
+    }
+  ],
+  "spend_usd": 47.5216
+}

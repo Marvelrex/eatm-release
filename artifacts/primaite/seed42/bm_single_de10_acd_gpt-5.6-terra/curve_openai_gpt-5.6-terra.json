@@ -1,0 +1,94 @@
+{
+  "tag": "openai_gpt-5.6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "steps": 500,
+  "blue": "llm",
+  "decide_every": 10,
+  "restore_cost": -1.0,
+  "topo": "single",
+  "temperature": 0.7,
+  "seed": 42,
+  "episodes": [
+    {
+      "episode": 0,
+      "reward": -9674.0,
+      "hq_reward": -9674.0,
+      "hq_restores": [
+        44,
+        5,
+        0,
+        0,
+        0
+      ],
+      "hq_covered": 2,
+      "llm_answered": 50,
+      "fell_back": 0,
+      "cost_usd": 0.269
+    },
+    {
+      "episode": 1,
+      "reward": -9578.0,
+      "hq_reward": -9578.0,
+      "hq_restores": [
+        43,
+        6,
+        0,
+        0,
+        0
+      ],
+      "hq_covered": 2,
+      "llm_answered": 50,
+      "fell_back": 0,
+      "cost_usd": 0.2672
+    },
+    {
+      "episode": 2,
+      "reward": -9509.0,
+      "hq_reward": -9509.0,
+      "hq_restores": [
+        43,
+        6,
+        0,
+        0,
+        0
+      ],
+      "hq_covered": 2,
+      "llm_answered": 50,
+      "fell_back": 0,
+      "cost_usd": 0.2635
+    },
+    {
+      "episode": 3,
+      "reward": -9484.0,
+      "hq_reward": -9484.0,
+      "hq_restores": [
+        43,
+        6,
+        0,
+        0,
+        0
+      ],
+      "hq_covered": 2,
+      "llm_answered": 50,
+      "fell_back": 0,
+      "cost_usd": 0.2641
+    },
+    {
+      "episode": 4,
+      "reward": -9589.0,
+      "hq_reward": -9589.0,
+      "hq_restores": [
+        41,
+        6,
+        1,
+        1,
+        0
+      ],
+      "hq_covered": 4,
+      "llm_answered": 50,
+      "fell_back": 0,
+      "cost_usd": 0.27
+    }
+  ],
+  "spend_usd": 1.3338
+}

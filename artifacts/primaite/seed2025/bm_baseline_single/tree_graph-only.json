@@ -1,0 +1,136 @@
+{
+  "action_nodes": {
+    "0": {
+      "Restore": {
+        "zone_bravo": {
+          "1|1|1": {
+            "_opportunity_cost_count": 3116,
+            "_time_to_effect_count": 3116,
+            "m2": 743851.3060012696,
+            "mean_advantage": 11.73709960208889,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -18.85365885391971,
+            "variance": 238.796566934597,
+            "visit_count": 3116
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 57,
+            "_time_to_effect_count": 57,
+            "m2": 12261.754195303878,
+            "mean_advantage": 8.244655959063623,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -1.3024322881977843,
+            "variance": 218.95989634471212,
+            "visit_count": 57
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 3154,
+            "_time_to_effect_count": 3154,
+            "m2": 790250.9525003778,
+            "mean_advantage": 1.1412269274599778,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 47.59482654514872,
+            "variance": 250.6346186173098,
+            "visit_count": 3154
+          }
+        }
+      }
+    }
+  },
+  "baseline_state": {
+    "agent_returns_by_horizon": {
+      "0|h=5": {
+        "count": 10000,
+        "mean": -71.38432945999962
+      }
+    },
+    "context_returns_by_horizon": {
+      "0|0|2|2|h=5": {
+        "count": 107,
+        "mean": -19.441964544392523
+      },
+      "0|0|3|2|h=5": {
+        "count": 3233,
+        "mean": -60.513144770723734
+      },
+      "1|0|3|2|h=5": {
+        "count": 3340,
+        "mean": -52.934702428892194
+      },
+      "2|0|3|2|h=5": {
+        "count": 3320,
+        "mean": -102.20545217996987
+      }
+    },
+    "global_returns_by_horizon": {
+      "5": {
+        "count": 10000,
+        "mean": -71.38432945999962
+      }
+    }
+  },
+  "ema_alpha": 0.2,
+  "format_version": 4,
+  "metadata": {
+    "episodes_finalized": 1
+  },
+  "sleep_nodes": {
+    "0": {
+      "0|1|1": {
+        "_opportunity_cost_count": 107,
+        "_time_to_effect_count": 107,
+        "m2": 56032.68842353373,
+        "mean_advantage": 3.251934025153292,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -3.147887098946069,
+        "variance": 528.6102681465446,
+        "visit_count": 107
+      },
+      "0|1|2": {
+        "_opportunity_cost_count": 3233,
+        "_time_to_effect_count": 3233,
+        "m2": 279193.6387850916,
+        "mean_advantage": 1.4140406178341378,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -7.078537042771083,
+        "variance": 86.38417041617933,
+        "visit_count": 3233
+      },
+      "1|1|2": {
+        "_opportunity_cost_count": 167,
+        "_time_to_effect_count": 167,
+        "m2": 18623.68919269483,
+        "mean_advantage": -19.75514012440117,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -18.889630023410483,
+        "variance": 112.19089875117368,
+        "visit_count": 167
+      },
+      "2|1|2": {
+        "_opportunity_cost_count": 166,
+        "_time_to_effect_count": 166,
+        "m2": 44774.05163010155,
+        "mean_advantage": -15.080034553915633,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 34.68370375974878,
+        "variance": 271.3578886672821,
+        "visit_count": 166
+      }
+    }
+  },
+  "tree_type": "action_tree"
+}

@@ -1,0 +1,154 @@
+{
+  "tag": "openai_gpt-5.6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "steps": 500,
+  "blue": "llm",
+  "decide_every": 10,
+  "restore_cost": -1.0,
+  "topo": "multi",
+  "temperature": 0.7,
+  "seed": 2025,
+  "episodes": [
+    {
+      "episode": 0,
+      "reward": -6856.0,
+      "hq_reward": -1404.0,
+      "hq_restores": [
+        17,
+        17,
+        11
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.8404
+    },
+    {
+      "episode": 1,
+      "reward": -6780.0,
+      "hq_reward": -1435.0,
+      "hq_restores": [
+        18,
+        14,
+        12
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.8428
+    },
+    {
+      "episode": 2,
+      "reward": -7198.0,
+      "hq_reward": -1650.0,
+      "hq_restores": [
+        19,
+        19,
+        8
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.8407
+    },
+    {
+      "episode": 3,
+      "reward": -6974.0,
+      "hq_reward": -1537.0,
+      "hq_restores": [
+        19,
+        17,
+        11
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.8367
+    },
+    {
+      "episode": 4,
+      "reward": -7025.0,
+      "hq_reward": -1522.0,
+      "hq_restores": [
+        19,
+        18,
+        8
+      ],
+      "hq_covered": 3,
+      "llm_answered": 247,
+      "fell_back": 0,
+      "cost_usd": 0.8299
+    },
+    {
+      "episode": 5,
+      "reward": -6958.0,
+      "hq_reward": -1567.0,
+      "hq_restores": [
+        20,
+        18,
+        8
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.841
+    },
+    {
+      "episode": 6,
+      "reward": -6687.0,
+      "hq_reward": -1436.0,
+      "hq_restores": [
+        19,
+        16,
+        11
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.8319
+    },
+    {
+      "episode": 7,
+      "reward": -6778.0,
+      "hq_reward": -1432.0,
+      "hq_restores": [
+        18,
+        16,
+        10
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.8318
+    },
+    {
+      "episode": 8,
+      "reward": -6764.0,
+      "hq_reward": -1582.0,
+      "hq_restores": [
+        19,
+        18,
+        9
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.8432
+    },
+    {
+      "episode": 9,
+      "reward": -7169.0,
+      "hq_reward": -1610.0,
+      "hq_restores": [
+        18,
+        18,
+        9
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.8374
+    }
+  ],
+  "spend_usd": 8.375800000000002
+}

@@ -1,0 +1,9 @@
+backend: "openrouter"
+model_name: "openai/gpt-5.4-mini"
+batch_size: 1
+seed: 42069
+episodes: 1000
+generate:
+  max_new_tokens: 2048
+  max_length: 4096
+  temperature: 0.7

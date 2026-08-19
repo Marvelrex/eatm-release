@@ -1,0 +1,620 @@
+metadata:
+  version: 3.0
+
+io_settings:
+  save_agent_actions: true
+  save_step_metadata: false
+  save_pcap_logs: false
+  save_sys_logs: false
+  sys_log_level: WARNING
+
+game:
+  max_episode_length: 256
+  ports:
+    - ARP
+    - DNS
+    - HTTP
+    - POSTGRES_SERVER
+  protocols:
+    - ICMP
+    - TCP
+    - UDP
+
+agents: []
+
+simulation:
+  network:
+    nodes:
+
+      - hostname: internet_router
+        type: router
+        num_ports: 2
+        ports:
+          1:
+            ip_address: 100.0.0.1
+            subnet_mask: 255.255.255.252
+          2:
+            ip_address: 100.0.1.1
+            subnet_mask: 255.255.255.252
+        acl:
+          10:
+            action: PERMIT
+        routes:
+          - address: 10.1.0.0
+            subnet_mask: 255.255.0.0
+            next_hop_ip_address: 100.0.0.2
+          - address: 10.2.0.0
+            subnet_mask: 255.255.0.0
+            next_hop_ip_address: 100.0.0.2
+          - address: 10.3.0.0
+            subnet_mask: 255.255.0.0
+            next_hop_ip_address: 100.0.0.2
+          - address: 10.0.10.0
+            subnet_mask: 255.255.255.0
+            next_hop_ip_address: 100.0.1.2
+
+      - hostname: contractor_router
+        type: router
+        num_ports: 2
+        ports:
+          1:
+            ip_address: 100.0.1.2
+            subnet_mask: 255.255.255.252
+          2:
+            ip_address: 10.0.10.1
+            subnet_mask: 255.255.255.0
+        acl:
+          10:
+            action: PERMIT
+        default_route:
+          next_hop_ip_address: 100.0.1.1
+
+      - hostname: uav_switch
+        type: switch
+        num_ports: 5
+
+      - hostname: uav_control_server
+        type: server
+        ip_address: 10.0.10.10
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.0.10.1
+        dns_server: 10.1.2.10
+        services:
+          - type: web-server
+
+      - hostname: uav_operator_1
+        type: computer
+        ip_address: 10.0.10.21
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.0.10.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: web-browser
+            options:
+              target_url: http://10.0.10.10/
+
+      - hostname: uav_operator_2
+        type: computer
+        ip_address: 10.0.10.22
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.0.10.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: web-browser
+            options:
+              target_url: http://10.0.10.10/
+
+      - hostname: perimeter_fw
+        type: firewall
+        ports:
+          external_port:
+            ip_address: 100.0.0.2
+            subnet_mask: 255.255.255.252
+          internal_port:
+            ip_address: 10.1.50.1
+            subnet_mask: 255.255.255.252
+          dmz_port:
+            ip_address: 10.1.1.1
+            subnet_mask: 255.255.255.0
+        acl:
+          internal_inbound_acl:
+            10:
+              action: PERMIT
+          internal_outbound_acl:
+            10:
+              action: PERMIT
+          dmz_inbound_acl:
+            10:
+              action: PERMIT
+          dmz_outbound_acl:
+            10:
+              action: PERMIT
+        default_route:
+          next_hop_ip_address: 100.0.0.1
+        routes:
+          - address: 10.1.2.0
+            subnet_mask: 255.255.255.0
+            next_hop_ip_address: 10.1.50.2
+          - address: 10.1.3.0
+            subnet_mask: 255.255.255.0
+            next_hop_ip_address: 10.1.50.2
+          - address: 10.2.0.0
+            subnet_mask: 255.255.0.0
+            next_hop_ip_address: 10.1.50.2
+          - address: 10.3.0.0
+            subnet_mask: 255.255.0.0
+            next_hop_ip_address: 10.1.50.2
+
+      - hostname: public_access_switch
+        type: switch
+        num_ports: 3
+
+      - hostname: public_web_server
+        type: server
+        ip_address: 10.1.1.10
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.1.1.1
+        dns_server: 10.1.2.10
+        services:
+          - type: web-server
+
+      - hostname: hq_router
+        type: router
+        num_ports: 5
+        ports:
+          1:
+            ip_address: 10.1.2.1
+            subnet_mask: 255.255.255.0
+          2:
+            ip_address: 10.1.3.1
+            subnet_mask: 255.255.255.0
+          3:
+            ip_address: 10.1.100.1
+            subnet_mask: 255.255.255.252
+          4:
+            ip_address: 10.1.101.1
+            subnet_mask: 255.255.255.252
+          5:
+            ip_address: 10.1.50.2
+            subnet_mask: 255.255.255.252
+        acl:
+          10:
+            action: PERMIT
+        default_route:
+          next_hop_ip_address: 10.1.50.1
+        routes:
+          - address: 10.2.0.0
+            subnet_mask: 255.255.0.0
+            next_hop_ip_address: 10.1.100.2
+          - address: 10.3.0.0
+            subnet_mask: 255.255.0.0
+            next_hop_ip_address: 10.1.101.2
+          - address: 10.1.1.0
+            subnet_mask: 255.255.255.0
+            next_hop_ip_address: 10.1.50.1
+
+      - hostname: admin_switch
+        type: switch
+        num_ports: 5
+
+      - hostname: admin_server
+        type: server
+        ip_address: 10.1.2.10
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.1.2.1
+        dns_server: 10.1.2.10
+        services:
+          - type: dns-server
+            options:
+              domain_mapping:
+                hq.cage.local: 10.1.1.10
+          - type: database-service
+            options:
+              backup_server_ip: 10.1.3.10
+
+      - hostname: admin_host_1
+        type: computer
+        ip_address: 10.1.2.21
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.1.2.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: web-browser
+            options:
+              target_url: http://10.1.1.10/
+
+      - hostname: admin_host_2
+        type: computer
+        ip_address: 10.1.2.22
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.1.2.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: web-browser
+            options:
+              target_url: http://10.1.1.10/
+
+      - hostname: office_switch
+        type: switch
+        num_ports: 5
+
+      - hostname: office_server
+        type: server
+        ip_address: 10.1.3.10
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.1.3.1
+        dns_server: 10.1.2.10
+        services:
+          - type: database-service
+            options:
+              backup_server_ip: 10.1.2.10
+
+      - hostname: office_host_1
+        type: computer
+        ip_address: 10.1.3.21
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.1.3.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: database-client
+            options:
+              db_server_ip: 10.1.3.10
+
+      - hostname: office_host_2
+        type: computer
+        ip_address: 10.1.3.22
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.1.3.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: database-client
+            options:
+              db_server_ip: 10.1.3.10
+
+      - hostname: deploymentA_fw
+        type: firewall
+        ports:
+          external_port:
+            ip_address: 10.1.100.2
+            subnet_mask: 255.255.255.252
+          internal_port:
+            ip_address: 10.2.1.1
+            subnet_mask: 255.255.255.0
+          dmz_port:
+            ip_address: 10.2.2.1
+            subnet_mask: 255.255.255.0
+        acl:
+          internal_inbound_acl:
+            10:
+              action: PERMIT
+          internal_outbound_acl:
+            10:
+              action: PERMIT
+          dmz_inbound_acl:
+            10:
+              action: PERMIT
+          dmz_outbound_acl:
+            10:
+              action: PERMIT
+        default_route:
+          next_hop_ip_address: 10.1.100.1
+
+      - hostname: restricted_a_switch
+        type: switch
+        num_ports: 5
+
+      - hostname: restricted_a_server
+        type: server
+        ip_address: 10.2.1.10
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.2.1.1
+        dns_server: 10.1.2.10
+        services:
+          - type: database-service
+            options:
+              backup_server_ip: 10.2.2.10
+
+      - hostname: restricted_a_host_1
+        type: computer
+        ip_address: 10.2.1.21
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.2.1.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: database-client
+            options:
+              db_server_ip: 10.2.1.10
+
+      - hostname: restricted_a_host_2
+        type: computer
+        ip_address: 10.2.1.22
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.2.1.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: database-client
+            options:
+              db_server_ip: 10.2.1.10
+
+      - hostname: operational_a_switch
+        type: switch
+        num_ports: 5
+
+      - hostname: operational_a_server
+        type: server
+        ip_address: 10.2.2.10
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.2.2.1
+        dns_server: 10.1.2.10
+        services:
+          - type: web-server
+
+      - hostname: operational_a_host_1
+        type: computer
+        ip_address: 10.2.2.21
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.2.2.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: web-browser
+            options:
+              target_url: http://10.2.2.10/
+
+      - hostname: operational_a_host_2
+        type: computer
+        ip_address: 10.2.2.22
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.2.2.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: web-browser
+            options:
+              target_url: http://10.2.2.10/
+
+      - hostname: deploymentB_fw
+        type: firewall
+        ports:
+          external_port:
+            ip_address: 10.1.101.2
+            subnet_mask: 255.255.255.252
+          internal_port:
+            ip_address: 10.3.1.1
+            subnet_mask: 255.255.255.0
+          dmz_port:
+            ip_address: 10.3.2.1
+            subnet_mask: 255.255.255.0
+        acl:
+          internal_inbound_acl:
+            10:
+              action: PERMIT
+          internal_outbound_acl:
+            10:
+              action: PERMIT
+          dmz_inbound_acl:
+            10:
+              action: PERMIT
+          dmz_outbound_acl:
+            10:
+              action: PERMIT
+        default_route:
+          next_hop_ip_address: 10.1.101.1
+
+      - hostname: restricted_b_switch
+        type: switch
+        num_ports: 5
+
+      - hostname: restricted_b_server
+        type: server
+        ip_address: 10.3.1.10
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.3.1.1
+        dns_server: 10.1.2.10
+        services:
+          - type: database-service
+            options:
+              backup_server_ip: 10.3.2.10
+
+      - hostname: restricted_b_host_1
+        type: computer
+        ip_address: 10.3.1.21
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.3.1.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: database-client
+            options:
+              db_server_ip: 10.3.1.10
+
+      - hostname: restricted_b_host_2
+        type: computer
+        ip_address: 10.3.1.22
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.3.1.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: database-client
+            options:
+              db_server_ip: 10.3.1.10
+
+      - hostname: operational_b_switch
+        type: switch
+        num_ports: 5
+
+      - hostname: operational_b_server
+        type: server
+        ip_address: 10.3.2.10
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.3.2.1
+        dns_server: 10.1.2.10
+        services:
+          - type: web-server
+
+      - hostname: operational_b_host_1
+        type: computer
+        ip_address: 10.3.2.21
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.3.2.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: web-browser
+            options:
+              target_url: http://10.3.2.10/
+
+      - hostname: operational_b_host_2
+        type: computer
+        ip_address: 10.3.2.22
+        subnet_mask: 255.255.255.0
+        default_gateway: 10.3.2.1
+        dns_server: 10.1.2.10
+        applications:
+          - type: web-browser
+            options:
+              target_url: http://10.3.2.10/
+
+    links:
+      - endpoint_a_hostname: internet_router
+        endpoint_a_port: 1
+        endpoint_b_hostname: perimeter_fw
+        endpoint_b_port: 1
+      - endpoint_a_hostname: internet_router
+        endpoint_a_port: 2
+        endpoint_b_hostname: contractor_router
+        endpoint_b_port: 1
+
+      - endpoint_a_hostname: contractor_router
+        endpoint_a_port: 2
+        endpoint_b_hostname: uav_switch
+        endpoint_b_port: 5
+      - endpoint_a_hostname: uav_control_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: uav_switch
+        endpoint_b_port: 1
+      - endpoint_a_hostname: uav_operator_1
+        endpoint_a_port: 1
+        endpoint_b_hostname: uav_switch
+        endpoint_b_port: 2
+      - endpoint_a_hostname: uav_operator_2
+        endpoint_a_port: 1
+        endpoint_b_hostname: uav_switch
+        endpoint_b_port: 3
+
+      - endpoint_a_hostname: perimeter_fw
+        endpoint_a_port: 2
+        endpoint_b_hostname: hq_router
+        endpoint_b_port: 5
+      - endpoint_a_hostname: perimeter_fw
+        endpoint_a_port: 3
+        endpoint_b_hostname: public_access_switch
+        endpoint_b_port: 3
+      - endpoint_a_hostname: public_web_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: public_access_switch
+        endpoint_b_port: 1
+
+      - endpoint_a_hostname: hq_router
+        endpoint_a_port: 1
+        endpoint_b_hostname: admin_switch
+        endpoint_b_port: 5
+      - endpoint_a_hostname: admin_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: admin_switch
+        endpoint_b_port: 1
+      - endpoint_a_hostname: admin_host_1
+        endpoint_a_port: 1
+        endpoint_b_hostname: admin_switch
+        endpoint_b_port: 2
+      - endpoint_a_hostname: admin_host_2
+        endpoint_a_port: 1
+        endpoint_b_hostname: admin_switch
+        endpoint_b_port: 3
+
+      - endpoint_a_hostname: hq_router
+        endpoint_a_port: 2
+        endpoint_b_hostname: office_switch
+        endpoint_b_port: 5
+      - endpoint_a_hostname: office_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: office_switch
+        endpoint_b_port: 1
+      - endpoint_a_hostname: office_host_1
+        endpoint_a_port: 1
+        endpoint_b_hostname: office_switch
+        endpoint_b_port: 2
+      - endpoint_a_hostname: office_host_2
+        endpoint_a_port: 1
+        endpoint_b_hostname: office_switch
+        endpoint_b_port: 3
+
+      - endpoint_a_hostname: hq_router
+        endpoint_a_port: 3
+        endpoint_b_hostname: deploymentA_fw
+        endpoint_b_port: 1
+      - endpoint_a_hostname: deploymentA_fw
+        endpoint_a_port: 2
+        endpoint_b_hostname: restricted_a_switch
+        endpoint_b_port: 5
+      - endpoint_a_hostname: deploymentA_fw
+        endpoint_a_port: 3
+        endpoint_b_hostname: operational_a_switch
+        endpoint_b_port: 5
+      - endpoint_a_hostname: restricted_a_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: restricted_a_switch
+        endpoint_b_port: 1
+      - endpoint_a_hostname: restricted_a_host_1
+        endpoint_a_port: 1
+        endpoint_b_hostname: restricted_a_switch
+        endpoint_b_port: 2
+      - endpoint_a_hostname: restricted_a_host_2
+        endpoint_a_port: 1
+        endpoint_b_hostname: restricted_a_switch
+        endpoint_b_port: 3
+      - endpoint_a_hostname: operational_a_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: operational_a_switch
+        endpoint_b_port: 1
+      - endpoint_a_hostname: operational_a_host_1
+        endpoint_a_port: 1
+        endpoint_b_hostname: operational_a_switch
+        endpoint_b_port: 2
+      - endpoint_a_hostname: operational_a_host_2
+        endpoint_a_port: 1
+        endpoint_b_hostname: operational_a_switch
+        endpoint_b_port: 3
+
+      - endpoint_a_hostname: hq_router
+        endpoint_a_port: 4
+        endpoint_b_hostname: deploymentB_fw
+        endpoint_b_port: 1
+      - endpoint_a_hostname: deploymentB_fw
+        endpoint_a_port: 2
+        endpoint_b_hostname: restricted_b_switch
+        endpoint_b_port: 5
+      - endpoint_a_hostname: deploymentB_fw
+        endpoint_a_port: 3
+        endpoint_b_hostname: operational_b_switch
+        endpoint_b_port: 5
+      - endpoint_a_hostname: restricted_b_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: restricted_b_switch
+        endpoint_b_port: 1
+      - endpoint_a_hostname: restricted_b_host_1
+        endpoint_a_port: 1
+        endpoint_b_hostname: restricted_b_switch
+        endpoint_b_port: 2
+      - endpoint_a_hostname: restricted_b_host_2
+        endpoint_a_port: 1
+        endpoint_b_hostname: restricted_b_switch
+        endpoint_b_port: 3
+      - endpoint_a_hostname: operational_b_server
+        endpoint_a_port: 1
+        endpoint_b_hostname: operational_b_switch
+        endpoint_b_port: 1
+      - endpoint_a_hostname: operational_b_host_1
+        endpoint_a_port: 1
+        endpoint_b_hostname: operational_b_switch
+        endpoint_b_port: 2
+      - endpoint_a_hostname: operational_b_host_2
+        endpoint_a_port: 1
+        endpoint_b_hostname: operational_b_switch
+        endpoint_b_port: 3

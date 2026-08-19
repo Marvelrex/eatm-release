@@ -1,0 +1,112 @@
+{
+  "tag": "z-ai_glm-5.2",
+  "model": "z-ai/glm-5.2",
+  "steps": 500,
+  "blue": "llm",
+  "decide_every": 10,
+  "restore_cost": -1.0,
+  "topo": "multi",
+  "temperature": 0.7,
+  "seed": 2025,
+  "episodes": [
+    {
+      "episode": 0,
+      "reward": -7059.0,
+      "hq_reward": -1689.0,
+      "hq_restores": [
+        15,
+        17,
+        8
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.7775
+    },
+    {
+      "episode": 1,
+      "reward": -7203.0,
+      "hq_reward": -1630.0,
+      "hq_restores": [
+        18,
+        15,
+        7
+      ],
+      "hq_covered": 3,
+      "llm_answered": 247,
+      "fell_back": 0,
+      "cost_usd": 0.793
+    },
+    {
+      "episode": 2,
+      "reward": -7392.0,
+      "hq_reward": -1834.0,
+      "hq_restores": [
+        14,
+        17,
+        5
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.7933
+    },
+    {
+      "episode": 3,
+      "reward": -7489.0,
+      "hq_reward": -1828.0,
+      "hq_restores": [
+        13,
+        16,
+        5
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.7977
+    },
+    {
+      "episode": 4,
+      "reward": -7102.0,
+      "hq_reward": -1603.0,
+      "hq_restores": [
+        17,
+        14,
+        9
+      ],
+      "hq_covered": 3,
+      "llm_answered": 248,
+      "fell_back": 0,
+      "cost_usd": 0.7956
+    },
+    {
+      "episode": 5,
+      "reward": -6883.0,
+      "hq_reward": -1544.0,
+      "hq_restores": [
+        17,
+        17,
+        9
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.8006
+    },
+    {
+      "episode": 6,
+      "reward": -7258.0,
+      "hq_reward": -1690.0,
+      "hq_restores": [
+        16,
+        16,
+        8
+      ],
+      "hq_covered": 3,
+      "llm_answered": 250,
+      "fell_back": 0,
+      "cost_usd": 0.8053
+    }
+  ],
+  "spend_usd": 5.563
+}

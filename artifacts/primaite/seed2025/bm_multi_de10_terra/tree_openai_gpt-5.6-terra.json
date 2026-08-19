@@ -1,0 +1,2200 @@
+{
+  "action_nodes": {
+    "0": {
+      "Analyse": {
+        "restricted_zone_a": {
+          "0|0|0": {
+            "_opportunity_cost_count": 56,
+            "_time_to_effect_count": 56,
+            "m2": 1763.3791611295715,
+            "mean_advantage": -0.8031187310176332,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -3.082493896808061,
+            "variance": 32.06143929326493,
+            "visit_count": 56
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 78,
+            "_time_to_effect_count": 78,
+            "m2": 2455.244739034745,
+            "mean_advantage": -0.950838227525884,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -3.6023181542843945,
+            "variance": 31.88629531213955,
+            "visit_count": 78
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 5,
+            "_time_to_effect_count": 5,
+            "m2": 51.49258744750001,
+            "mean_advantage": -0.11548980429293287,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 1.2465481857070673,
+            "variance": 12.873146861875002,
+            "visit_count": 5
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 2,
+            "_time_to_effect_count": 2,
+            "m2": 1.4699694453124967,
+            "mean_advantage": -0.39943666499996766,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -0.9138241649999672,
+            "variance": 1.4699694453124967,
+            "visit_count": 2
+          },
+          "2|0|0": {
+            "_opportunity_cost_count": 14,
+            "_time_to_effect_count": 14,
+            "m2": 0.0,
+            "mean_advantage": 6.1603132232937625,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 6.1603132232937625,
+            "variance": 0.0,
+            "visit_count": 14
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 3,
+            "_time_to_effect_count": 3,
+            "m2": 11.920125886171887,
+            "mean_advantage": -3.2994991649999683,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -4.396036664999969,
+            "variance": 5.960062943085943,
+            "visit_count": 3
+          }
+        }
+      },
+      "Remove": {
+        "restricted_zone_a": {
+          "0|1|1": {
+            "_opportunity_cost_count": 176,
+            "_time_to_effect_count": 176,
+            "m2": 5007.361225644881,
+            "mean_advantage": 1.7553065158226997,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.0970094599006654,
+            "variance": 28.61349271797075,
+            "visit_count": 176
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 13,
+            "_time_to_effect_count": 13,
+            "m2": 45.04035008652642,
+            "mean_advantage": 0.778104681153878,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.7029209805937087,
+            "variance": 3.7533625072105354,
+            "visit_count": 13
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 24,
+            "_time_to_effect_count": 24,
+            "m2": 660.0279437493735,
+            "mean_advantage": 1.598762889727435,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.512188963713577,
+            "variance": 28.69686711953798,
+            "visit_count": 24
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 14,
+            "_time_to_effect_count": 14,
+            "m2": 126.86046964285988,
+            "mean_advantage": -0.5889951471428245,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -0.23579016321035287,
+            "variance": 9.758497664835376,
+            "visit_count": 14
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 223,
+            "_time_to_effect_count": 223,
+            "m2": 10063.894522765342,
+            "mean_advantage": 2.8184323771491067,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.7377708170143727,
+            "variance": 45.33285821065469,
+            "visit_count": 223
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 10,
+            "_time_to_effect_count": 10,
+            "m2": 208.75764254259377,
+            "mean_advantage": -2.483052914999968,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -1.474972807915168,
+            "variance": 23.195293615843752,
+            "visit_count": 10
+          }
+        }
+      },
+      "Restore": {
+        "restricted_zone_a": {
+          "0|0|0": {
+            "_opportunity_cost_count": 315,
+            "_time_to_effect_count": 315,
+            "m2": 243.52132566934722,
+            "mean_advantage": 3.4853811495721465,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 4.337054250425822,
+            "variance": 0.7755456231507873,
+            "visit_count": 315
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 328,
+            "_time_to_effect_count": 328,
+            "m2": 4452.476026371761,
+            "mean_advantage": 6.8881274543006406,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 3.2811510172495306,
+            "variance": 13.61613463722251,
+            "visit_count": 328
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 960,
+            "_time_to_effect_count": 960,
+            "m2": 1446.8552473556913,
+            "mean_advantage": 2.263701900848834,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 1.7782411547113999,
+            "variance": 1.508712458139407,
+            "visit_count": 960
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 180,
+            "_time_to_effect_count": 180,
+            "m2": 2462.474816207954,
+            "mean_advantage": 10.730812470051205,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 5.122049829417511,
+            "variance": 13.756842548647787,
+            "visit_count": 180
+          },
+          "2|0|0": {
+            "_opportunity_cost_count": 150,
+            "_time_to_effect_count": 150,
+            "m2": 60.996839551406204,
+            "mean_advantage": 6.700148223293762,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 8.292967825621476,
+            "variance": 0.40937476208997453,
+            "visit_count": 150
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 435,
+            "_time_to_effect_count": 435,
+            "m2": 9621.347206331431,
+            "mean_advantage": 7.5911519228885425,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 3.7732180584411656,
+            "variance": 22.16900277956551,
+            "visit_count": 435
+          }
+        }
+      }
+    },
+    "1": {
+      "Analyse": {
+        "operational_zone_a": {
+          "0|0|0": {
+            "_opportunity_cost_count": 41,
+            "_time_to_effect_count": 41,
+            "m2": 332.7272914854358,
+            "mean_advantage": -0.17544454180368582,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -0.045216320161194236,
+            "variance": 8.318182287135894,
+            "visit_count": 41
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 158,
+            "_time_to_effect_count": 158,
+            "m2": 1338.3717828059182,
+            "mean_advantage": -1.7321424570443416,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -10.010254690472623,
+            "variance": 8.52466103698037,
+            "visit_count": 158
+          },
+          "1|0|0": {
+            "_opportunity_cost_count": 105,
+            "_time_to_effect_count": 105,
+            "m2": 37187.4803761624,
+            "mean_advantage": 1.3845174950819692,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 13.009511316701929,
+            "variance": 357.5719266938692,
+            "visit_count": 105
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 5,
+            "_time_to_effect_count": 5,
+            "m2": 70.81368253296874,
+            "mean_advantage": -0.2753132267441849,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -0.0008183967441846018,
+            "variance": 17.703420633242185,
+            "visit_count": 5
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 144,
+            "_time_to_effect_count": 144,
+            "m2": 762.3377095975331,
+            "mean_advantage": -1.3793946334583094,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.3369863276869234,
+            "variance": 5.3310329342484835,
+            "visit_count": 144
+          }
+        }
+      },
+      "Remove": {
+        "operational_zone_a": {
+          "0|0|0": {
+            "_opportunity_cost_count": 107,
+            "_time_to_effect_count": 107,
+            "m2": 1208.4855672327003,
+            "mean_advantage": -1.053856745606778,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -3.8228084167292353,
+            "variance": 11.400807238044342,
+            "visit_count": 107
+          },
+          "0|1|1": {
+            "_opportunity_cost_count": 76,
+            "_time_to_effect_count": 76,
+            "m2": 2130.6911712420288,
+            "mean_advantage": 2.1506733573006915,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.34530867218271805,
+            "variance": 28.409215616560385,
+            "visit_count": 76
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 14,
+            "_time_to_effect_count": 14,
+            "m2": 226.28191281857798,
+            "mean_advantage": 5.328363752042599,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.6312604982737753,
+            "variance": 17.40630098604446,
+            "visit_count": 14
+          },
+          "1|0|0": {
+            "_opportunity_cost_count": 91,
+            "_time_to_effect_count": 91,
+            "m2": 30702.459541300963,
+            "mean_advantage": 3.764551456005696,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 26.019750777432733,
+            "variance": 341.13843934778845,
+            "visit_count": 91
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 87,
+            "_time_to_effect_count": 87,
+            "m2": 27386.064095314377,
+            "mean_advantage": 4.593466941357641,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.380768262738018,
+            "variance": 318.44260575946953,
+            "visit_count": 87
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 13,
+            "_time_to_effect_count": 13,
+            "m2": 1388.1040386418263,
+            "mean_advantage": -52.02960108807688,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -54.38470494593949,
+            "variance": 115.67533655348552,
+            "visit_count": 13
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 44,
+            "_time_to_effect_count": 44,
+            "m2": 418.6791353511542,
+            "mean_advantage": 0.3349930579911722,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.7385549401276624,
+            "variance": 9.736724077933818,
+            "visit_count": 44
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 23,
+            "_time_to_effect_count": 23,
+            "m2": 508.19340825374024,
+            "mean_advantage": 3.762860681572848,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -0.17887814548852932,
+            "variance": 23.099700375170013,
+            "visit_count": 23
+          }
+        }
+      },
+      "Restore": {
+        "operational_zone_a": {
+          "0|0|0": {
+            "_opportunity_cost_count": 811,
+            "_time_to_effect_count": 811,
+            "m2": 296.0264718786339,
+            "mean_advantage": 0.588277470613725,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.2344831872171876,
+            "variance": 0.3654647800970789,
+            "visit_count": 811
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 164,
+            "_time_to_effect_count": 164,
+            "m2": 1567.9478106979077,
+            "mean_advantage": 6.5055329143230844,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 3.85736415068891,
+            "variance": 9.619311722073054,
+            "visit_count": 164
+          },
+          "1|0|0": {
+            "_opportunity_cost_count": 980,
+            "_time_to_effect_count": 980,
+            "m2": 46911.34997491073,
+            "mean_advantage": 12.717872585080283,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 7.2132732851507,
+            "variance": 47.91761999480156,
+            "visit_count": 980
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 158,
+            "_time_to_effect_count": 158,
+            "m2": 29921.238229299328,
+            "mean_advantage": 43.156413319475384,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 30.82363480452131,
+            "variance": 190.58113521846707,
+            "visit_count": 158
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 326,
+            "_time_to_effect_count": 326,
+            "m2": 158.53375266712365,
+            "mean_advantage": 0.9562877565448171,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.643626963753232,
+            "variance": 0.48779616205268816,
+            "visit_count": 326
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 213,
+            "_time_to_effect_count": 213,
+            "m2": 1019.4298201807403,
+            "mean_advantage": 4.834317139185588,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 3.492887864195449,
+            "variance": 4.808631227267643,
+            "visit_count": 213
+          }
+        }
+      }
+    },
+    "2": {
+      "Analyse": {
+        "restricted_zone_b": {
+          "0|0|0": {
+            "_opportunity_cost_count": 84,
+            "_time_to_effect_count": 84,
+            "m2": 2500.260958073007,
+            "mean_advantage": 0.12606939546131032,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 1.7149030050549088,
+            "variance": 30.1236260008796,
+            "visit_count": 84
+          },
+          "0|1|1": {
+            "_opportunity_cost_count": 113,
+            "_time_to_effect_count": 113,
+            "m2": 3183.3971091548815,
+            "mean_advantage": 0.1578562268736676,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -3.5499641300753346,
+            "variance": 28.423188474597158,
+            "visit_count": 113
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 75,
+            "_time_to_effect_count": 75,
+            "m2": 2875.467459079651,
+            "mean_advantage": -3.6088694739615117,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -2.1386125534420137,
+            "variance": 38.85766836594123,
+            "visit_count": 75
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 3,
+            "_time_to_effect_count": 3,
+            "m2": 6.723847329713542,
+            "mean_advantage": -5.0458017548409435,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -5.922700338174279,
+            "variance": 3.361923664856771,
+            "visit_count": 3
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 138,
+            "_time_to_effect_count": 138,
+            "m2": 1047.1975359063204,
+            "mean_advantage": -4.083876239559218,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -4.077056938277617,
+            "variance": 7.643777634352704,
+            "visit_count": 138
+          },
+          "2|0|0": {
+            "_opportunity_cost_count": 16,
+            "_time_to_effect_count": 16,
+            "m2": 0.0,
+            "mean_advantage": 4.661508115183249,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 4.661508115183249,
+            "variance": 0.0,
+            "visit_count": 16
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 1,
+            "_time_to_effect_count": 1,
+            "m2": 0.0,
+            "mean_advantage": 0.04164458500003221,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.04164458500003221,
+            "variance": 0.0,
+            "visit_count": 1
+          }
+        }
+      },
+      "Remove": {
+        "restricted_zone_b": {
+          "0|0|0": {
+            "_opportunity_cost_count": 57,
+            "_time_to_effect_count": 57,
+            "m2": 1441.90350782698,
+            "mean_advantage": 0.32949028788061285,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.853975660751821,
+            "variance": 25.748276925481786,
+            "visit_count": 57
+          },
+          "0|1|1": {
+            "_opportunity_cost_count": 76,
+            "_time_to_effect_count": 76,
+            "m2": 1832.5992609089958,
+            "mean_advantage": 2.11198244209015,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.7653540327535566,
+            "variance": 24.434656812119943,
+            "visit_count": 76
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 3,
+            "_time_to_effect_count": 3,
+            "m2": 13.390764402265617,
+            "mean_advantage": 0.9284320850000316,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -0.3927796649999682,
+            "variance": 6.695382201132809,
+            "visit_count": 3
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 64,
+            "_time_to_effect_count": 64,
+            "m2": 837.652627978777,
+            "mean_advantage": -0.2121826666134146,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -1.51326753339923,
+            "variance": 13.296073459980587,
+            "visit_count": 64
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 3,
+            "_time_to_effect_count": 3,
+            "m2": 114.69630040775404,
+            "mean_advantage": 2.950164539284274,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 4.205546807570578,
+            "variance": 57.34815020387702,
+            "visit_count": 3
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 118,
+            "_time_to_effect_count": 118,
+            "m2": 3757.0729490270983,
+            "mean_advantage": 2.060011601774734,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 3.607131385161585,
+            "variance": 32.11173460706922,
+            "visit_count": 118
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 1,
+            "_time_to_effect_count": 1,
+            "m2": 0.0,
+            "mean_advantage": -3.44236791499997,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -3.44236791499997,
+            "variance": 0.0,
+            "visit_count": 1
+          }
+        }
+      },
+      "Restore": {
+        "restricted_zone_b": {
+          "0|0|0": {
+            "_opportunity_cost_count": 481,
+            "_time_to_effect_count": 481,
+            "m2": 436.9934552301152,
+            "mean_advantage": 1.6596054821203303,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.553854352420926,
+            "variance": 0.9104030317294067,
+            "visit_count": 481
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 262,
+            "_time_to_effect_count": 262,
+            "m2": 3740.941277630964,
+            "mean_advantage": 5.299317729516745,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 5.026989166887038,
+            "variance": 14.333108343413656,
+            "visit_count": 262
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 338,
+            "_time_to_effect_count": 338,
+            "m2": 2689.2539531502616,
+            "mean_advantage": 3.705062998425287,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.4517574949386174,
+            "variance": 7.979982056825702,
+            "visit_count": 338
+          },
+          "2|0|0": {
+            "_opportunity_cost_count": 314,
+            "_time_to_effect_count": 314,
+            "m2": 432.9259335328548,
+            "mean_advantage": 4.154528610853821,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 5.135302509550279,
+            "variance": 1.3831499473893125,
+            "visit_count": 314
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 330,
+            "_time_to_effect_count": 330,
+            "m2": 4540.64205760464,
+            "mean_advantage": 4.402648443572009,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 3.5166186838149764,
+            "variance": 13.801343640135684,
+            "visit_count": 330
+          }
+        }
+      }
+    },
+    "3": {
+      "Analyse": {
+        "operational_zone_b": {
+          "0|1|1": {
+            "_opportunity_cost_count": 224,
+            "_time_to_effect_count": 224,
+            "m2": 3166.0438642602085,
+            "mean_advantage": 0.4010525162730585,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -1.9687551268671295,
+            "variance": 14.197506117758783,
+            "visit_count": 224
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 77,
+            "_time_to_effect_count": 77,
+            "m2": 1059.544427868253,
+            "mean_advantage": 2.1991750811365565,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 4.451534772273624,
+            "variance": 13.941374050898066,
+            "visit_count": 77
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 73,
+            "_time_to_effect_count": 73,
+            "m2": 876.6335328853075,
+            "mean_advantage": 2.296178812177759,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 3.636226574581223,
+            "variance": 12.175465734518161,
+            "visit_count": 73
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 26,
+            "_time_to_effect_count": 26,
+            "m2": 14129.260092548893,
+            "mean_advantage": -2.1041334922114223,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 6.909476981306331,
+            "variance": 565.1704037019557,
+            "visit_count": 26
+          }
+        }
+      },
+      "Remove": {
+        "operational_zone_b": {
+          "0|1|1": {
+            "_opportunity_cost_count": 31,
+            "_time_to_effect_count": 31,
+            "m2": 464.5740653997822,
+            "mean_advantage": -0.01531621437309826,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -1.7119049338306218,
+            "variance": 15.48580217999274,
+            "visit_count": 31
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 22,
+            "_time_to_effect_count": 22,
+            "m2": 601.4651060181121,
+            "mean_advantage": 0.6808844523518998,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -3.0893789997029737,
+            "variance": 28.641195524672007,
+            "visit_count": 22
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 116,
+            "_time_to_effect_count": 116,
+            "m2": 3190.150745592704,
+            "mean_advantage": 1.1885214988743689,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -6.222233722611087,
+            "variance": 27.740441266023513,
+            "visit_count": 116
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 21,
+            "_time_to_effect_count": 21,
+            "m2": 797.4531561536216,
+            "mean_advantage": -1.9977096118758966,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -6.109580669292711,
+            "variance": 39.87265780768108,
+            "visit_count": 21
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 4,
+            "_time_to_effect_count": 4,
+            "m2": 70.67127297265615,
+            "mean_advantage": -43.28618041499996,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -40.773864164999964,
+            "variance": 23.557090990885385,
+            "visit_count": 4
+          }
+        }
+      },
+      "Restore": {
+        "operational_zone_b": {
+          "0|1|1": {
+            "_opportunity_cost_count": 199,
+            "_time_to_effect_count": 199,
+            "m2": 406.9572645578517,
+            "mean_advantage": 1.0102315386646674,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.793566972499032,
+            "variance": 2.05533971998915,
+            "visit_count": 199
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 287,
+            "_time_to_effect_count": 287,
+            "m2": 1684.0364511240894,
+            "mean_advantage": 4.69177211422236,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 3.377049155486027,
+            "variance": 5.888239339594718,
+            "visit_count": 287
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 347,
+            "_time_to_effect_count": 347,
+            "m2": 4567.4071069322235,
+            "mean_advantage": 4.1160164799748795,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -9.244180835729829,
+            "variance": 13.200598574948623,
+            "visit_count": 347
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 1464,
+            "_time_to_effect_count": 1464,
+            "m2": 186983.76534995547,
+            "mean_advantage": 8.09730920521964,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 3.7068894834005968,
+            "variance": 127.80845205055056,
+            "visit_count": 1464
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 13,
+            "_time_to_effect_count": 13,
+            "m2": 2136.7045543936556,
+            "mean_advantage": 4.369359580228029,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 9.135412268877344,
+            "variance": 178.05871286613797,
+            "visit_count": 13
+          }
+        }
+      }
+    },
+    "4": {
+      "Analyse": {
+        "admin_network": {
+          "0|0|0": {
+            "_opportunity_cost_count": 11,
+            "_time_to_effect_count": 11,
+            "m2": 334.06301698467524,
+            "mean_advantage": -2.1885725425622202,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -4.398993000108685,
+            "variance": 33.40630169846752,
+            "visit_count": 11
+          },
+          "0|1|1": {
+            "_opportunity_cost_count": 53,
+            "_time_to_effect_count": 53,
+            "m2": 2049.888891902541,
+            "mean_advantage": 0.2834474358909363,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -5.608655289424924,
+            "variance": 39.42094022889502,
+            "visit_count": 53
+          }
+        },
+        "office_network": {
+          "0|1|1": {
+            "_opportunity_cost_count": 3,
+            "_time_to_effect_count": 3,
+            "m2": 0.6827074010290041,
+            "mean_advantage": -3.2054729665802486,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -3.3404008387716786,
+            "variance": 0.34135370051450203,
+            "visit_count": 3
+          },
+          "2|0|0": {
+            "_opportunity_cost_count": 6,
+            "_time_to_effect_count": 6,
+            "m2": 130.29274594029295,
+            "mean_advantage": -2.059874652777776,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -1.471949725777776,
+            "variance": 26.05854918805859,
+            "visit_count": 6
+          }
+        },
+        "public_access_zone": {
+          "0|0|0": {
+            "_opportunity_cost_count": 168,
+            "_time_to_effect_count": 168,
+            "m2": 7074.9582741974355,
+            "mean_advantage": 1.2602352768717262,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.8072120130558791,
+            "variance": 42.36501960597267,
+            "visit_count": 168
+          },
+          "0|1|1": {
+            "_opportunity_cost_count": 46,
+            "_time_to_effect_count": 46,
+            "m2": 1935.4337207378799,
+            "mean_advantage": -1.339715830745341,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -6.207329588459799,
+            "variance": 43.00963823861955,
+            "visit_count": 46
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 2,
+            "_time_to_effect_count": 2,
+            "m2": 12.24302200695312,
+            "mean_advantage": -3.846462500000002,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -5.330963750000002,
+            "variance": 12.24302200695312,
+            "visit_count": 2
+          }
+        }
+      },
+      "Remove": {
+        "admin_network": {
+          "0|0|0": {
+            "_opportunity_cost_count": 45,
+            "_time_to_effect_count": 45,
+            "m2": 2273.5373938655325,
+            "mean_advantage": -1.7736066944444442,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.19109387583049098,
+            "variance": 51.67130440603483,
+            "visit_count": 45
+          },
+          "0|1|1": {
+            "_opportunity_cost_count": 48,
+            "_time_to_effect_count": 48,
+            "m2": 2014.2385328167238,
+            "mean_advantage": -0.25334462367367794,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.4571088744855036,
+            "variance": 42.856138996100505,
+            "visit_count": 48
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 47,
+            "_time_to_effect_count": 47,
+            "m2": 1092.102272862287,
+            "mean_advantage": 2.610061738167407,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 3.1149506587658866,
+            "variance": 23.741353757875803,
+            "visit_count": 47
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 19,
+            "_time_to_effect_count": 19,
+            "m2": 316.75518808187763,
+            "mean_advantage": -0.3440491864733034,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -0.030779642907173443,
+            "variance": 17.5975104489932,
+            "visit_count": 19
+          }
+        },
+        "office_network": {
+          "0|0|0": {
+            "_opportunity_cost_count": 12,
+            "_time_to_effect_count": 12,
+            "m2": 486.2940103107387,
+            "mean_advantage": -4.281060866396474,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -6.732525199507652,
+            "variance": 44.208546391885335,
+            "visit_count": 12
+          },
+          "0|1|1": {
+            "_opportunity_cost_count": 8,
+            "_time_to_effect_count": 8,
+            "m2": 365.54686795835283,
+            "mean_advantage": -1.9045697055226656,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -3.0778691317068683,
+            "variance": 52.22098113690755,
+            "visit_count": 8
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 18,
+            "_time_to_effect_count": 18,
+            "m2": 586.9052692191007,
+            "mean_advantage": -1.1821207895098642,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -0.5033604668664737,
+            "variance": 34.52383936582945,
+            "visit_count": 18
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 16,
+            "_time_to_effect_count": 16,
+            "m2": 271.98586712311123,
+            "mean_advantage": 2.2871507771401647,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 1.9130859410203687,
+            "variance": 18.132391141540747,
+            "visit_count": 16
+          }
+        },
+        "public_access_zone": {
+          "0|0|0": {
+            "_opportunity_cost_count": 51,
+            "_time_to_effect_count": 51,
+            "m2": 1779.5922034149223,
+            "mean_advantage": -1.1802134705631406,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -2.0564690948516033,
+            "variance": 35.59184406829845,
+            "visit_count": 51
+          },
+          "0|1|1": {
+            "_opportunity_cost_count": 85,
+            "_time_to_effect_count": 85,
+            "m2": 3146.228697015292,
+            "mean_advantage": 0.5882160825817733,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.5041144830303534,
+            "variance": 37.45510353589633,
+            "visit_count": 85
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 11,
+            "_time_to_effect_count": 11,
+            "m2": 174.65163249168137,
+            "mean_advantage": 2.397051642998737,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.4325268018344635,
+            "variance": 17.465163249168135,
+            "visit_count": 11
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 88,
+            "_time_to_effect_count": 88,
+            "m2": 1517.2306826448953,
+            "mean_advantage": 2.518572391145151,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -0.14180585389125355,
+            "variance": 17.43943313384937,
+            "visit_count": 88
+          }
+        }
+      },
+      "Restore": {
+        "admin_network": {
+          "0|0|0": {
+            "_opportunity_cost_count": 3,
+            "_time_to_effect_count": 3,
+            "m2": 11.026035083984373,
+            "mean_advantage": -5.084542296944862,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -4.610723546944864,
+            "variance": 5.513017541992187,
+            "visit_count": 3
+          },
+          "0|1|1": {
+            "_opportunity_cost_count": 1,
+            "_time_to_effect_count": 1,
+            "m2": 0.0,
+            "mean_advantage": -4.376692554347824,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -4.376692554347824,
+            "variance": 0.0,
+            "visit_count": 1
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 184,
+            "_time_to_effect_count": 184,
+            "m2": 3863.7160393766544,
+            "mean_advantage": 4.33960180284494,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 4.207352303747112,
+            "variance": 21.113202400965324,
+            "visit_count": 184
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 155,
+            "_time_to_effect_count": 155,
+            "m2": 4027.8802510930655,
+            "mean_advantage": 3.7036895788988913,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.5856423436075371,
+            "variance": 26.155066565539386,
+            "visit_count": 155
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 108,
+            "_time_to_effect_count": 108,
+            "m2": 2237.288425734344,
+            "mean_advantage": -0.7915259871140662,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.0715010636387365,
+            "variance": 20.909237623685456,
+            "visit_count": 108
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 129,
+            "_time_to_effect_count": 129,
+            "m2": 3133.194382168074,
+            "mean_advantage": 4.362583481792405,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 4.396745429078591,
+            "variance": 24.478081110688077,
+            "visit_count": 129
+          }
+        },
+        "office_network": {
+          "0|0|0": {
+            "_opportunity_cost_count": 33,
+            "_time_to_effect_count": 33,
+            "m2": 1069.6060432531604,
+            "mean_advantage": -0.818430933308498,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.3803130686362737,
+            "variance": 33.42518885166126,
+            "visit_count": 33
+          },
+          "0|1|1": {
+            "_opportunity_cost_count": 110,
+            "_time_to_effect_count": 110,
+            "m2": 1623.868645562259,
+            "mean_advantage": -2.2408675029864256,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -2.305903850402459,
+            "variance": 14.89787748222256,
+            "visit_count": 110
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 140,
+            "_time_to_effect_count": 140,
+            "m2": 4231.925986304865,
+            "mean_advantage": 3.9181153873707353,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -3.7063189847644367,
+            "variance": 30.445510692840752,
+            "visit_count": 140
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 150,
+            "_time_to_effect_count": 150,
+            "m2": 4719.983917486473,
+            "mean_advantage": -2.712977514881811,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.171479519857844,
+            "variance": 31.677744412660893,
+            "visit_count": 150
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 107,
+            "_time_to_effect_count": 107,
+            "m2": 3120.382195273537,
+            "mean_advantage": 2.6496441117978375,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 0.9344794598527775,
+            "variance": 29.437567879939028,
+            "visit_count": 107
+          },
+          "2|0|0": {
+            "_opportunity_cost_count": 86,
+            "_time_to_effect_count": 86,
+            "m2": 1081.009752951587,
+            "mean_advantage": -0.8759677533543041,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.794469297643956,
+            "variance": 12.717761799430434,
+            "visit_count": 86
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 115,
+            "_time_to_effect_count": 115,
+            "m2": 1701.654793707587,
+            "mean_advantage": 0.27632825690678997,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -0.08992035881739746,
+            "variance": 14.926796436031465,
+            "visit_count": 115
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 152,
+            "_time_to_effect_count": 152,
+            "m2": 3756.601484504358,
+            "mean_advantage": 4.3201890032527785,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 4.310397876648686,
+            "variance": 24.878155526518928,
+            "visit_count": 152
+          }
+        },
+        "public_access_zone": {
+          "0|0|0": {
+            "_opportunity_cost_count": 101,
+            "_time_to_effect_count": 101,
+            "m2": 1627.0270586361733,
+            "mean_advantage": -0.11792349080847889,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 4.1054559175863945,
+            "variance": 16.270270586361733,
+            "visit_count": 101
+          },
+          "0|1|1": {
+            "_opportunity_cost_count": 136,
+            "_time_to_effect_count": 136,
+            "m2": 2295.448920713406,
+            "mean_advantage": -1.637170235829508,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -5.179185799783626,
+            "variance": 17.003325338617824,
+            "visit_count": 136
+          },
+          "0|1|2": {
+            "_opportunity_cost_count": 168,
+            "_time_to_effect_count": 168,
+            "m2": 4966.025081146136,
+            "mean_advantage": 4.6208874123185675,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 5.84379933830216,
+            "variance": 29.73667713261159,
+            "visit_count": 168
+          },
+          "1|1|1": {
+            "_opportunity_cost_count": 149,
+            "_time_to_effect_count": 149,
+            "m2": 5112.376900813452,
+            "mean_advantage": -1.368239073280324,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 2.196616645557547,
+            "variance": 34.54308716765846,
+            "visit_count": 149
+          },
+          "1|1|2": {
+            "_opportunity_cost_count": 141,
+            "_time_to_effect_count": 141,
+            "m2": 4915.906211682215,
+            "mean_advantage": 4.221964436758095,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": -2.6289810129909212,
+            "variance": 35.113615797730105,
+            "visit_count": 141
+          },
+          "2|0|0": {
+            "_opportunity_cost_count": 100,
+            "_time_to_effect_count": 100,
+            "m2": 1441.0297133519398,
+            "mean_advantage": 0.5738615142480845,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 3.9539745711475627,
+            "variance": 14.555855690423634,
+            "visit_count": 100
+          },
+          "2|1|1": {
+            "_opportunity_cost_count": 143,
+            "_time_to_effect_count": 143,
+            "m2": 3719.9267098714845,
+            "mean_advantage": -0.37120482281399914,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 1.1357341493834763,
+            "variance": 26.196666970925946,
+            "visit_count": 143
+          },
+          "2|1|2": {
+            "_opportunity_cost_count": 209,
+            "_time_to_effect_count": 209,
+            "m2": 4202.007811223133,
+            "mean_advantage": 5.55198808970788,
+            "mean_time_to_effect": 1.0,
+            "opportunity_cost": 0.0,
+            "rationale": "",
+            "recent_advantage": 1.1470992526150232,
+            "variance": 20.201960630880446,
+            "visit_count": 209
+          }
+        }
+      }
+    }
+  },
+  "baseline_state": {
+    "agent_returns_by_horizon": {
+      "0|h=5": {
+        "count": 5000,
+        "mean": -7.5235073275
+      },
+      "1|h=5": {
+        "count": 5000,
+        "mean": -9.019365196250009
+      },
+      "2|h=5": {
+        "count": 5000,
+        "mean": -6.332602165000014
+      },
+      "3|h=5": {
+        "count": 5000,
+        "mean": -6.393043428749986
+      },
+      "4|h=5": {
+        "count": 5000,
+        "mean": -8.322425038749984
+      }
+    },
+    "context_returns_by_horizon": {
+      "0|0|0|0|h=5": {
+        "count": 869,
+        "mean": -6.744195957997695
+      },
+      "0|0|2|1|h=5": {
+        "count": 239,
+        "mean": -6.336127615062759
+      },
+      "0|0|3|2|h=5": {
+        "count": 562,
+        "mean": -7.9378897130782935
+      },
+      "0|1|0|0|h=5": {
+        "count": 1050,
+        "mean": -4.721793761904756
+      },
+      "0|1|2|1|h=5": {
+        "count": 150,
+        "mean": -5.763050875000001
+      },
+      "0|1|3|2|h=5": {
+        "count": 470,
+        "mean": -7.764762101063829
+      },
+      "0|2|0|0|h=5": {
+        "count": 749,
+        "mean": -5.159500575767688
+      },
+      "0|2|2|1|h=5": {
+        "count": 491,
+        "mean": -6.700744080957229
+      },
+      "0|2|3|2|h=5": {
+        "count": 430,
+        "mean": -7.2215464389534905
+      },
+      "0|3|0|0|h=5": {
+        "count": 79,
+        "mean": -4.4559503955696185
+      },
+      "0|3|2|1|h=5": {
+        "count": 946,
+        "mean": -4.701603290169132
+      },
+      "0|3|3|2|h=5": {
+        "count": 645,
+        "mean": -6.067842054263568
+      },
+      "0|4|0|0|h=5": {
+        "count": 34,
+        "mean": -5.5768345588235295
+      },
+      "0|4|2|1|h=5": {
+        "count": 769,
+        "mean": -7.30947181404421
+      },
+      "0|4|2|2|h=5": {
+        "count": 241,
+        "mean": -6.989816104771786
+      },
+      "0|4|3|2|h=5": {
+        "count": 626,
+        "mean": -8.763277156549513
+      },
+      "1|0|0|0|h=5": {
+        "count": 77,
+        "mean": -9.923775243506494
+      },
+      "1|0|2|1|h=5": {
+        "count": 1252,
+        "mean": -5.525517801517579
+      },
+      "1|0|3|2|h=5": {
+        "count": 341,
+        "mean": -10.603559237536658
+      },
+      "1|1|0|0|h=5": {
+        "count": 1262,
+        "mean": -9.958304873217125
+      },
+      "1|1|2|1|h=5": {
+        "count": 104,
+        "mean": -24.155366887019234
+      },
+      "1|1|3|2|h=5": {
+        "count": 304,
+        "mean": -36.04825984786188
+      },
+      "1|2|0|0|h=5": {
+        "count": 129,
+        "mean": -7.06393657945736
+      },
+      "1|2|2|1|h=5": {
+        "count": 731,
+        "mean": -6.040002393980849
+      },
+      "1|2|3|2|h=5": {
+        "count": 810,
+        "mean": -5.482722700617289
+      },
+      "1|3|0|0|h=5": {
+        "count": 430,
+        "mean": -4.771472558139531
+      },
+      "1|3|2|1|h=5": {
+        "count": 548,
+        "mean": -4.624425456204384
+      },
+      "1|3|3|2|h=5": {
+        "count": 692,
+        "mean": -5.550360052384395
+      },
+      "1|4|0|0|h=5": {
+        "count": 21,
+        "mean": -6.812763690476189
+      },
+      "1|4|2|1|h=5": {
+        "count": 407,
+        "mean": -6.996185165847662
+      },
+      "1|4|2|2|h=5": {
+        "count": 383,
+        "mean": -7.940922437989554
+      },
+      "1|4|3|2|h=5": {
+        "count": 859,
+        "mean": -9.755376164144357
+      },
+      "2|0|0|0|h=5": {
+        "count": 839,
+        "mean": -9.376676676102502
+      },
+      "2|0|2|1|h=5": {
+        "count": 234,
+        "mean": -7.876795005341884
+      },
+      "2|0|3|2|h=5": {
+        "count": 587,
+        "mean": -8.131699126916523
+      },
+      "2|1|0|0|h=5": {
+        "count": 123,
+        "mean": -7.571074491869918
+      },
+      "2|1|2|1|h=5": {
+        "count": 792,
+        "mean": -5.0709561237373695
+      },
+      "2|1|3|2|h=5": {
+        "count": 745,
+        "mean": -6.22737906040268
+      },
+      "2|2|0|0|h=5": {
+        "count": 712,
+        "mean": -6.886862903792144
+      },
+      "2|2|2|1|h=5": {
+        "count": 454,
+        "mean": -8.353966464757699
+      },
+      "2|2|3|2|h=5": {
+        "count": 494,
+        "mean": -5.950551543522269
+      },
+      "2|3|0|0|h=5": {
+        "count": 3,
+        "mean": -40.57693958333333
+      },
+      "2|3|2|1|h=5": {
+        "count": 1525,
+        "mean": -6.025409987704923
+      },
+      "2|3|3|2|h=5": {
+        "count": 132,
+        "mean": -41.77631567234847
+      },
+      "2|4|0|0|h=5": {
+        "count": 159,
+        "mean": -8.704402240566035
+      },
+      "2|4|2|1|h=5": {
+        "count": 609,
+        "mean": -7.891407748357961
+      },
+      "2|4|2|2|h=5": {
+        "count": 194,
+        "mean": -8.204946585051545
+      },
+      "2|4|3|2|h=5": {
+        "count": 698,
+        "mean": -9.223192093481384
+      }
+    },
+    "global_returns_by_horizon": {
+      "5": {
+        "count": 25000,
+        "mean": -7.518188631249981
+      }
+    }
+  },
+  "ema_alpha": 0.2,
+  "format_version": 4,
+  "metadata": {
+    "episodes_finalized": 1
+  },
+  "sleep_nodes": {
+    "0": {
+      "0|0|0": {
+        "_opportunity_cost_count": 498,
+        "_time_to_effect_count": 498,
+        "m2": 11488.209062125357,
+        "mean_advantage": 0.9320484223830723,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 3.4155926469460107,
+        "variance": 23.115108776912187,
+        "visit_count": 498
+      },
+      "0|1|1": {
+        "_opportunity_cost_count": 63,
+        "_time_to_effect_count": 63,
+        "m2": 1610.6225535134681,
+        "mean_advantage": -1.1261817062698403,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -4.322286174095758,
+        "variance": 25.97778312118497,
+        "visit_count": 63
+      },
+      "0|1|2": {
+        "_opportunity_cost_count": 143,
+        "_time_to_effect_count": 143,
+        "m2": 1024.2788836388959,
+        "mean_advantage": 1.8725726444405923,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 3.2951455600300736,
+        "variance": 7.213231574921802,
+        "visit_count": 143
+      },
+      "1|0|0": {
+        "_opportunity_cost_count": 77,
+        "_time_to_effect_count": 77,
+        "m2": 2493.2392637996795,
+        "mean_advantage": 1.8959506297441817,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 2.580193096659293,
+        "variance": 32.80577978683789,
+        "visit_count": 77
+      },
+      "1|1|1": {
+        "_opportunity_cost_count": 263,
+        "_time_to_effect_count": 263,
+        "m2": 8191.918828194008,
+        "mean_advantage": 1.9549887206292105,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 1.6569459087687557,
+        "variance": 31.266865756465677,
+        "visit_count": 263
+      },
+      "1|1|2": {
+        "_opportunity_cost_count": 145,
+        "_time_to_effect_count": 145,
+        "m2": 2256.5653266458385,
+        "mean_advantage": -0.883244337413761,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 0.04499835969589175,
+        "variance": 15.670592546151656,
+        "visit_count": 145
+      },
+      "2|0|0": {
+        "_opportunity_cost_count": 675,
+        "_time_to_effect_count": 675,
+        "m2": 24495.19610661779,
+        "mean_advantage": 0.8918917407993956,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 2.495102996634756,
+        "variance": 36.34302092969998,
+        "visit_count": 675
+      },
+      "2|1|1": {
+        "_opportunity_cost_count": 11,
+        "_time_to_effect_count": 11,
+        "m2": 296.4525830949857,
+        "mean_advantage": -2.1304065513636035,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -2.650893495683488,
+        "variance": 29.64525830949857,
+        "visit_count": 11
+      },
+      "2|1|2": {
+        "_opportunity_cost_count": 139,
+        "_time_to_effect_count": 139,
+        "m2": 3424.06954589184,
+        "mean_advantage": -1.5901033016906163,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 6.642344100725907,
+        "variance": 24.81209815863652,
+        "visit_count": 139
+      }
+    },
+    "1": {
+      "0|0|0": {
+        "_opportunity_cost_count": 91,
+        "_time_to_effect_count": 91,
+        "m2": 3442.5150137151486,
+        "mean_advantage": -2.129245797129117,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -3.798320971895626,
+        "variance": 38.250166819057206,
+        "visit_count": 91
+      },
+      "0|1|1": {
+        "_opportunity_cost_count": 74,
+        "_time_to_effect_count": 74,
+        "m2": 1093.760430130302,
+        "mean_advantage": 0.5599844982300636,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 1.4872899604280478,
+        "variance": 14.983019590826055,
+        "visit_count": 74
+      },
+      "0|1|2": {
+        "_opportunity_cost_count": 134,
+        "_time_to_effect_count": 134,
+        "m2": 3024.0925898792493,
+        "mean_advantage": 6.88127984619406,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -8.61001641880993,
+        "variance": 22.73753826976879,
+        "visit_count": 134
+      },
+      "1|0|0": {
+        "_opportunity_cost_count": 86,
+        "_time_to_effect_count": 86,
+        "m2": 24983.90124147179,
+        "mean_advantage": -4.685690826162789,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 0.4251566174463077,
+        "variance": 293.9282498996681,
+        "visit_count": 86
+      },
+      "1|1|1": {
+        "_opportunity_cost_count": 17,
+        "_time_to_effect_count": 17,
+        "m2": 20696.044183196005,
+        "mean_advantage": -14.927513870882319,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -20.47646756747203,
+        "variance": 1293.5027614497503,
+        "visit_count": 17
+      },
+      "1|1|2": {
+        "_opportunity_cost_count": 133,
+        "_time_to_effect_count": 133,
+        "m2": 38206.356235522995,
+        "mean_advantage": -48.20134634545108,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -21.62820065543286,
+        "variance": 289.442092693356,
+        "visit_count": 133
+      },
+      "2|0|0": {
+        "_opportunity_cost_count": 123,
+        "_time_to_effect_count": 123,
+        "m2": 8284.10244908237,
+        "mean_advantage": 2.6371887358391604,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -1.6124179803856518,
+        "variance": 67.9024790908391,
+        "visit_count": 123
+      },
+      "2|1|1": {
+        "_opportunity_cost_count": 417,
+        "_time_to_effect_count": 417,
+        "m2": 5978.903994001423,
+        "mean_advantage": 0.6741286337088159,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -2.0503880776882766,
+        "variance": 14.372365370195727,
+        "visit_count": 417
+      },
+      "2|1|2": {
+        "_opportunity_cost_count": 365,
+        "_time_to_effect_count": 365,
+        "m2": 6565.96111867184,
+        "mean_advantage": 4.296741658883579,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 3.7030518691982652,
+        "variance": 18.038354721625936,
+        "visit_count": 365
+      }
+    },
+    "2": {
+      "0|0|0": {
+        "_opportunity_cost_count": 127,
+        "_time_to_effect_count": 127,
+        "m2": 3465.244039723494,
+        "mean_advantage": 1.0197332296706825,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 1.962324804361883,
+        "variance": 27.501936823202335,
+        "visit_count": 127
+      },
+      "0|1|1": {
+        "_opportunity_cost_count": 302,
+        "_time_to_effect_count": 302,
+        "m2": 14995.153526287022,
+        "mean_advantage": 1.5850074418051143,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -2.5947493900216694,
+        "variance": 49.817785801618015,
+        "visit_count": 302
+      },
+      "0|1|2": {
+        "_opportunity_cost_count": 90,
+        "_time_to_effect_count": 90,
+        "m2": 3050.279042040471,
+        "mean_advantage": 4.387482710000032,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 5.685638832589456,
+        "variance": 34.27279822517383,
+        "visit_count": 90
+      },
+      "1|0|0": {
+        "_opportunity_cost_count": 129,
+        "_time_to_effect_count": 129,
+        "m2": 1749.2376052795812,
+        "mean_advantage": 0.9095820664636267,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -0.5727624011811544,
+        "variance": 13.665918791246728,
+        "visit_count": 129
+      },
+      "1|1|1": {
+        "_opportunity_cost_count": 664,
+        "_time_to_effect_count": 664,
+        "m2": 13220.723129712147,
+        "mean_advantage": 0.9956534101506581,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -0.2313221230282626,
+        "variance": 19.940758868344112,
+        "visit_count": 664
+      },
+      "1|1|2": {
+        "_opportunity_cost_count": 331,
+        "_time_to_effect_count": 331,
+        "m2": 10503.02314084558,
+        "mean_advantage": 3.444081241899177,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 0.29541351629502927,
+        "variance": 31.827342851047213,
+        "visit_count": 331
+      },
+      "2|0|0": {
+        "_opportunity_cost_count": 382,
+        "_time_to_effect_count": 382,
+        "m2": 11568.499787203691,
+        "mean_advantage": 0.9177802997333594,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -3.3878221372566486,
+        "variance": 30.36351650184696,
+        "visit_count": 382
+      },
+      "2|1|1": {
+        "_opportunity_cost_count": 335,
+        "_time_to_effect_count": 335,
+        "m2": 16834.840179861498,
+        "mean_advantage": 1.870246088756458,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -6.392787946505816,
+        "variance": 50.403713113357774,
+        "visit_count": 335
+      },
+      "2|1|2": {
+        "_opportunity_cost_count": 163,
+        "_time_to_effect_count": 163,
+        "m2": 9891.006261669536,
+        "mean_advantage": 1.0433368733206956,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -0.7136100633283098,
+        "variance": 61.05559420783664,
+        "visit_count": 163
+      }
+    },
+    "3": {
+      "0|0|0": {
+        "_opportunity_cost_count": 79,
+        "_time_to_effect_count": 79,
+        "m2": 3271.761340592636,
+        "mean_advantage": 1.0000978623243908,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -4.3158104002438655,
+        "variance": 41.9456582127261,
+        "visit_count": 79
+      },
+      "0|1|1": {
+        "_opportunity_cost_count": 492,
+        "_time_to_effect_count": 492,
+        "m2": 10136.890086192523,
+        "mean_advantage": 1.0192335675406394,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -0.3485074268371532,
+        "variance": 20.645397324221026,
+        "visit_count": 492
+      },
+      "0|1|2": {
+        "_opportunity_cost_count": 259,
+        "_time_to_effect_count": 259,
+        "m2": 9506.376714111973,
+        "mean_advantage": 2.426512329472488,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -3.5767252698984175,
+        "variance": 36.846421372527026,
+        "visit_count": 259
+      },
+      "1|0|0": {
+        "_opportunity_cost_count": 430,
+        "_time_to_effect_count": 430,
+        "m2": 12608.8307488436,
+        "mean_advantage": 1.262417729375899,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -2.1657128576279012,
+        "variance": 29.3912138667683,
+        "visit_count": 430
+      },
+      "1|1|1": {
+        "_opportunity_cost_count": 432,
+        "_time_to_effect_count": 432,
+        "m2": 10574.345625910124,
+        "mean_advantage": 1.7212965733178331,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 0.3307176743002298,
+        "variance": 24.5344446076801,
+        "visit_count": 432
+      },
+      "1|1|2": {
+        "_opportunity_cost_count": 251,
+        "_time_to_effect_count": 251,
+        "m2": 17720.047408002,
+        "mean_advantage": 1.3939384811427171,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -21.10752385895585,
+        "variance": 70.880189632008,
+        "visit_count": 251
+      },
+      "2|0|0": {
+        "_opportunity_cost_count": 3,
+        "_time_to_effect_count": 3,
+        "m2": 3181.648728502204,
+        "mean_advantage": -31.217502904166665,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -9.993648825999998,
+        "variance": 1590.824364251102,
+        "visit_count": 3
+      },
+      "2|1|1": {
+        "_opportunity_cost_count": 61,
+        "_time_to_effect_count": 61,
+        "m2": 40640.451570972364,
+        "mean_advantage": -26.72892467729505,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -46.40013440880194,
+        "variance": 677.340859516206,
+        "visit_count": 61
+      },
+      "2|1|2": {
+        "_opportunity_cost_count": 89,
+        "_time_to_effect_count": 89,
+        "m2": 44517.88420209322,
+        "mean_advantage": -26.82005316780895,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -15.70839058751243,
+        "variance": 505.88504775105935,
+        "visit_count": 89
+      }
+    },
+    "4": {
+      "0|0|0": {
+        "_opportunity_cost_count": 34,
+        "_time_to_effect_count": 34,
+        "m2": 718.525282838506,
+        "mean_advantage": 3.643409505514707,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 0.4223601909778727,
+        "variance": 21.773493419348664,
+        "visit_count": 34
+      },
+      "0|1|1": {
+        "_opportunity_cost_count": 104,
+        "_time_to_effect_count": 104,
+        "m2": 9133.190108488305,
+        "mean_advantage": -0.24784306946831783,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -12.308432275686982,
+        "variance": 88.67174862610004,
+        "visit_count": 104
+      },
+      "0|1|2": {
+        "_opportunity_cost_count": 126,
+        "_time_to_effect_count": 126,
+        "m2": 3384.1499118587176,
+        "mean_advantage": 1.169781588968286,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 2.8336763294626395,
+        "variance": 27.07319929486974,
+        "visit_count": 126
+      },
+      "1|0|0": {
+        "_opportunity_cost_count": 21,
+        "_time_to_effect_count": 21,
+        "m2": 1454.1130676001683,
+        "mean_advantage": -0.7028102945767177,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -8.093773658869988,
+        "variance": 72.70565338000841,
+        "visit_count": 21
+      },
+      "1|1|1": {
+        "_opportunity_cost_count": 579,
+        "_time_to_effect_count": 579,
+        "m2": 22067.000641681625,
+        "mean_advantage": 1.8769849638946616,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -5.884323018832255,
+        "variance": 38.178201802217345,
+        "visit_count": 579
+      },
+      "1|1|2": {
+        "_opportunity_cost_count": 290,
+        "_time_to_effect_count": 290,
+        "m2": 9718.95264111245,
+        "mean_advantage": 2.2956522896451115,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 0.05558578558174432,
+        "variance": 33.62959391388391,
+        "visit_count": 290
+      },
+      "2|0|0": {
+        "_opportunity_cost_count": 14,
+        "_time_to_effect_count": 14,
+        "m2": 60.52407126947192,
+        "mean_advantage": 0.2667044717938302,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -0.45559694757191505,
+        "variance": 4.655697789959378,
+        "visit_count": 14
+      },
+      "2|1|1": {
+        "_opportunity_cost_count": 326,
+        "_time_to_effect_count": 326,
+        "m2": 11712.776545101942,
+        "mean_advantage": 0.8496033512743583,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": -5.11579396868781,
+        "variance": 36.03931244646751,
+        "visit_count": 326
+      },
+      "2|1|2": {
+        "_opportunity_cost_count": 149,
+        "_time_to_effect_count": 149,
+        "m2": 4267.714708053929,
+        "mean_advantage": 1.5261276386913072,
+        "mean_time_to_effect": 1.0,
+        "opportunity_cost": 0.0,
+        "rationale": "",
+        "recent_advantage": 12.990245908660105,
+        "variance": 28.835910189553573,
+        "visit_count": 149
+      }
+    }
+  },
+  "tree_type": "action_tree"
+}

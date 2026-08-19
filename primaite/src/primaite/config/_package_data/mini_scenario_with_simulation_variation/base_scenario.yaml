@@ -1,0 +1,69 @@
+metadata:
+    version: 3.0
+
+game:
+  max_episode_length: 128
+  ports: []
+  protocols: []
+
+agents:
+  - ref: RL_Agent
+    type: proxy-agent
+
+    action_space:
+      action_map:
+        0:
+          action: do-nothing
+          options: {}
+        1:
+          action: node-shutdown
+          options:
+            node_name: client_1
+        2:
+          action: node-shutdown
+          options:
+            node_name: server
+        3:
+          action: node-startup
+          options:
+            node_name: client_1
+        4:
+          action: node-startup
+          options:
+            node_name: server
+        5:
+          action: host-nic-disable
+          options:
+            node_name: client_1
+            nic_num: 1
+        6:
+          action: host-nic-disable
+          options:
+            node_name: server
+            nic_num: 1
+        7:
+          action: host-nic-enable
+          options:
+            node_name: client_1
+            nic_num: 1
+        8:
+          action: host-nic-enable
+          options:
+            node_name: server
+            nic_num: 1
+
+simulation:
+  network:
+    nodes:
+      - hostname: server
+        type: server
+        ip_address: 192.168.1.2
+        subnet_mask: 255.255.255.0
+        default_gateway: 192.168.1.1
+        services: *server_services
+      - hostname: client_1
+        type: computer
+        ip_address: 192.168.1.3
+        subnet_mask: 255.255.255.0
+        default_gateway: 192.168.1.1
+        applications: *client_applications
